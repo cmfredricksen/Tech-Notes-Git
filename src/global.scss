@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Open+Sans&family=Zen+Antique+Soft&display=swap");
+
+$font-heading: "Zen Antique Soft", serif;
+$font-text: "Open Sans", sans-serif;
+$font-links: "Fira Mono", monospace;
+$font-test: sans-serif;
+
+/* SCSS HEX */
+$blanched-almond: #ffead0ff;
+$ultra-red: #f76f8eff;
+$mauve-taupe: #96616bff;
+$charcoal: #37505cff;
+$rich-black: #113537ff;
+
+/* SCSS HSL */
+$blanched-almond: hsla(33, 100%, 91%, 1);
+$ultra-red: hsla(346, 89%, 70%, 1);
+$mauve-taupe: hsla(349, 21%, 48%, 1);
+$charcoal: hsla(199, 25%, 29%, 1);
+$rich-black: hsla(183, 53%, 14%, 1);
+
+/* SCSS RGB */
+$blanched-almond: rgba(255, 234, 208, 1);
+$ultra-red: rgba(247, 111, 142, 1);
+$mauve-taupe: rgba(150, 97, 107, 1);
+$charcoal: rgba(55, 80, 92, 1);
+$rich-black: rgba(17, 53, 55, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(
+  0deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-right: linear-gradient(
+  90deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-bottom: linear-gradient(
+  180deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-left: linear-gradient(
+  270deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-top-right: linear-gradient(
+  45deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-bottom-right: linear-gradient(
+  135deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-top-left: linear-gradient(
+  225deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-bottom-left: linear-gradient(
+  315deg,
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+$gradient-radial: radial-gradient(
+  #ffead0ff,
+  #f76f8eff,
+  #96616bff,
+  #37505cff,
+  #113537ff
+);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  // max-width: 1000px;
+  padding: 2rem;
+  // margin: auto;
+  background-color: $charcoal;
+  font-size: large;
+  color: $blanched-almond;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-heading;
+  margin: 0.5rem 0.5rem 0;
+  // text-align: center;
+  padding: 1rem;
+  color: $ultra-red;
+  margin: auto;
+}
+
+p {
+  font-family: $font-text;
+  margin: 1.5rem auto;
+  width: 90vw;
+  // font-size: large;
+}
+
+header {
+  // padding: 1rem 0.25rem;
+}
+
+nav {
+  display: flex;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  // margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid $mauve-taupe;
+  margin-bottom: 2rem;
+}
+
+.nav-link {
+  padding: 0.35rem;
+  // border: 2px solid black;
+  margin: 0.15rem;
+  border-left: 2px solid $ultra-red;
+  border-right: 2px solid $ultra-red;
+  background-color: $mauve-taupe;
+}
+
+a {
+  color: $blanched-almond;
+  text-decoration: none;
+  font-family: $font-links;
+  font-weight: 1000;
+}
+
+a:hover {
+  font-weight: bold;
+  color: $ultra-red;
+}
+
+p {
+  padding: 0 1.5rem;
+}
+
+p.code-box {
+  font-family: $font-links;
+  color: $ultra-red;
+  border: 2px solid $mauve-taupe;
+  border-radius: 0.5rem;
+  padding: 2.5rem 0.5rem;
+  width: 75vw;
+  margin: 2.5rem auto;
+  background-color: $rich-black;
+}
+
+ol {
+  margin: 2rem;
+}
+
+li {
+  margin: 0.5rem 2.5rem;
+  list-style-type: lower-alpha;
+  font-family: $font-text;
+}
+
+code {
+  // margin: 1.5rem 1rem;
+  // padding: 0.5rem 1rem;
+  background-color: lightgray;
+}
+
+.code-box {
+  // padding: 1.5rem 1rem;
+  // margin: 3rem;
+  // background-color: rgb(58, 59, 61);
+  font-family: monospace;
+  // border-radius: 0.25rem;
+}
+
+.text-link {
+  // margin: 2.5rem;
+}
+
+.symbol {
+  // background-color: lightgray;
+  display: block;
+  //   border-radius: 100%;
+  // margin: 1.5rem 0.5rem;
+  // padding: 0.5rem;
+  text-decoration: underline;
+  font-size: small;
+  font-weight: 100;
+  text-align: right;
+}
+
+.main-section {
+  // margin: 2rem 0;
+  // border-top: 7px solid lightgrey;
+  // padding-top: 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-link {
+    border: none;
+    // padding: 0.5rem;
+    // width: 75vw;
+    // background-color: lightgray;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+    background-color: lightgray;
+  }
+  body {
+    // border-left: 2rem solid grey;
+    // border-right: 2rem solid grey;
+    // background-color: white;
+  }
+}

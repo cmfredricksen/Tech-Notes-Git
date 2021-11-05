@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Open+Sans&family=Zen+Antique+Soft&display=swap");
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
+/* SCSS Gradient */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+  background-color: #37505c;
+  font-size: large;
+  color: #ffead0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Zen Antique Soft", serif;
+  margin: 0.5rem 0.5rem 0;
+  padding: 1rem;
+  color: #f76f8e;
+  margin: auto;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  margin: 1.5rem auto;
+  width: 90vw;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 2px solid #96616b;
+  margin-bottom: 2rem;
+}
+
+.nav-link {
+  padding: 0.35rem;
+  margin: 0.15rem;
+  border-left: 2px solid #f76f8e;
+  border-right: 2px solid #f76f8e;
+  background-color: #96616b;
+}
+
+a {
+  color: #ffead0;
+  text-decoration: none;
+  font-family: "Fira Mono", monospace;
+  font-weight: 1000;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #f76f8e;
+}
+
+p {
+  padding: 0 1.5rem;
+}
+
+p.code-box {
+  font-family: "Fira Mono", monospace;
+  color: #f76f8e;
+  border: 2px solid #96616b;
+  border-radius: 0.5rem;
+  padding: 2.5rem 0.5rem;
+  width: 75vw;
+  margin: 2.5rem auto;
+  background-color: #113537;
+}
+
+ol {
+  margin: 2rem;
+}
+
+li {
+  margin: 0.5rem 2.5rem;
+  list-style-type: lower-alpha;
+  font-family: "Open Sans", sans-serif;
+}
+
+code {
+  background-color: lightgray;
+}
+
+.code-box {
+  font-family: monospace;
+}
+
+.symbol {
+  display: block;
+  text-decoration: underline;
+  font-size: small;
+  font-weight: 100;
+  text-align: right;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-link {
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+    background-color: lightgray;
+  }
+}
+/*# sourceMappingURL=global.css.map */
