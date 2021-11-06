@@ -12,79 +12,6 @@ $mauve-taupe: hsla(349, 21%, 48%, 1);
 $charcoal: hsla(199, 25%, 29%, 1);
 $rich-black: hsla(183, 53%, 14%, 1);
 
-/* SCSS Gradient */
-$gradient-top: linear-gradient(
-  0deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-right: linear-gradient(
-  90deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-bottom: linear-gradient(
-  180deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-left: linear-gradient(
-  270deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-top-right: linear-gradient(
-  45deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-bottom-right: linear-gradient(
-  135deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-top-left: linear-gradient(
-  225deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-bottom-left: linear-gradient(
-  315deg,
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-$gradient-radial: radial-gradient(
-  #ffead0ff,
-  #f76f8eff,
-  #96616bff,
-  #37505cff,
-  #113537ff
-);
-
 // Styles
 
 * {
@@ -214,7 +141,7 @@ p {
   color: $ultra-red;
   border: 2px solid $mauve-taupe;
   border-radius: 0.5rem;
-  padding: 2.5rem 0.5rem;
+  padding: 1.5rem 0.5rem;
   width: 75vw;
   margin: 2.5rem auto;
   background-color: $rich-black;
@@ -237,30 +164,35 @@ footer p {
   font-weight: bold;
   font-family: $font-links;
 }
-
-.symbol {
-  // background-color: lightgray;
-  display: block;
-  //   border-radius: 100%;
-  // margin: 1.5rem 0.5rem;
-  // padding: 0.5rem;
-  text-decoration: underline;
-  font-size: small;
-  font-weight: 100;
-  text-align: right;
-}
-
 @media only screen and (max-width: 640px) {
+  body {
+    max-width: none;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  ul li {
+    margin: 0.5rem 1rem;
+  }
   .nav-link {
     border: none;
     // padding: 0.5rem;
     // width: 75vw;
     // background-color: lightgray;
   }
+  .container {
+    columns: 1;
+  }
+
+  .code-box {
+    max-width: none;
+  }
 }
 
 @media only screen and (min-width: 720px) {
   html {
-    background-color: lightgray;
+    background-color: $rich-black;
   }
 }

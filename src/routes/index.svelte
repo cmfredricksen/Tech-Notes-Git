@@ -1,3 +1,19 @@
+<h2>Welcome...</h2>
+
+<h3>This page is based on my own notes while learning Git & GitHub.</h3>
+
+<p>To get started follow the links above.</p>
+<p>
+  In order to learn, I practiced the steps over and over again. I made a new
+  project folder, and then initiated git, then I made my online repo and
+  connected it to my local one. I tried to make regular commits and push them to
+  my online repo, though I was inconsistent as a beginner. I went through the
+  steps several times until it became pretty easy. After that I moved to
+  branches, followed by GitHub pages. I did not need to do all of these things
+  at the time, it was just practicing to get the muscle memory going.
+</p>
+<p>I hope this is useful for you. Don't give up, you'll get it!</p>
+
 <p>
   There are several sources of good information on Git and GitHub, but the best
   way to learn is by doing. When I started trying to learn about version control
@@ -32,18 +48,3 @@
   <li>git: an open source, distributed version-control system.</li>
   <li>GitHub: a platform for hosting and collaborating on Git repositories.</li>
 </p>
-<h3>About this Page</h3>
-<p>
-  This page is based on my own notes while I was learning how to use Git &
-  GitHub.
-</p>
-<p>
-  In order to learn, I practiced the steps over and over again. I made a new
-  project folder, and then initiated git, then I made my online repo and
-  connected it to my local one. I tried to make regular commits and push them to
-  my online repo, though I was inconsistent as a beginner. I went through the
-  steps several times until it became pretty easy. After that I moved to
-  branches, followed by GitHub pages. I did not need to do all of these things
-  at the time, it was just practicing to get the muscle memory going.
-</p>
-<p>I hope this is useful for you. Don't give up, you'll get it!</p>

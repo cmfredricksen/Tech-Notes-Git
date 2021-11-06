@@ -1,7 +1,7 @@
 <header>
   <div class="title">
     <h1>Tech Notes</h1>
-    <h3>•Learn with me</h3>
+    <h3>•for beginners</h3>
   </div>
 
   <nav class="main-menu">
