@@ -129,8 +129,8 @@
     once you add the very basic bits.
   </p>
   <p>
-    Normally the advice is too commit often. It makes it easier to find code
-    that is causing problems, or go back before unwanted changes were made. Each
+    Normally the advice is to commit often. It makes it easier to find code that
+    is causing problems, or go back before unwanted changes were made. Each
     commit is a record of every change you made to every file included in that
     commit. Just something to keep in mind.
   </p>
