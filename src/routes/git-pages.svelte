@@ -4,6 +4,7 @@
 <p>
   This, to me, was one of the trickiest things to figure out as a beginner to
   coding and web development. So I learned to follow the steps which I found on <a
+    class="text-link"
     href="https://www.theodinproject.com/">The Odin Project</a
   > and after I had those down I was able to understand it better.
 </p>

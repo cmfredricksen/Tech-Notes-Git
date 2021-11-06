@@ -61,11 +61,12 @@
   Once you have this set up, it is very quick and simple to keep everything up
   to date and in synch. To Summarize:
 </p>
-<p class="code-box">git add filename</p>
-<br />
-<p class="code-box">git commit filename -m "message about changes"</p>
-<br />
-<p class="code-box">git push</p>
+
+<div class="code-box">
+  <p>git add filename</p>
+  <p>git commit filename -m "message about changes"</p>
+  <p>git push</p>
+</div>
 <p>
   That's all for basic use of Git and GitHub, there is a lot more you can do
   with these amazing tools. Don't be intimidated, you will get the hang of it.

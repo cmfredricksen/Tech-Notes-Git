@@ -15,10 +15,10 @@
 <a
   class="text-link"
   href="https://github.github.com/training-kit/"
-  target="_blank">Git & GitHub CheatSheet.</a
+  target="_blank">Git & GitHub CheatSheet</a
 >
 
-<h5>Additional Commands:</h5>
+<h3>Additional Commands:</h3>
 
 <p>To see hidden files, including your git repo type in:</p>
 <p class="code-box">dir /ah</p>

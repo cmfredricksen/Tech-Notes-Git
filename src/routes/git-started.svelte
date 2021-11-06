@@ -1,25 +1,43 @@
 <h2>Get Started with GIT</h2>
 
-<h3>Initializing Git to start tracking your files.</h3>
+<h3>Install Git on your computer</h3>
 
 <p>
-  Git is version control software. It keeps track of every change you make to
-  your files. This allows you the freedom to go back to an earlier rendition of
-  your code if things go awry. Another handy feature is the ability to work on
-  branches, only merging to your main project once everything is working
-  properly.
+  Before you start using Git you need to install it on your computer. It is
+  pretty straight forward. Just follow the link below:
 </p>
+
+<a class="free-link" href="https://git-scm.com/downloads">Download Git</a>
+
 <p>
-  In order for Git to track your changes you need to start a repository for your
-  project directory. After you create your directory, then use the 'git init'
-  command in your terminal. (Instructions below) Git init is short for git
-  initialize, and this command begins a repository for your project directory.
+  Once you have installed Git you can begin a new repository for any project you
+  want!
 </p>
-<p>
-  Once you have initialized your git repository, then any files or other assets
-  you add to the directory will be added to the list of items to be saved when
-  you commit. You can prevent certain things from being added if you want.
-</p>
+
+<h3>Initializing Git to start tracking your files.</h3>
+
+<div class="container">
+  <p>
+    Git is version control software. It keeps track of every change you make to
+    your files. This allows you the freedom to go back to an earlier rendition
+    of your code if things go awry. Another handy feature is the ability to work
+    on branches, only merging to your main project once everything is working
+    properly.
+  </p>
+  <p>
+    In order for Git to track your changes you need to start a repository for
+    your project directory. After you create your directory, then use the 'git
+    init' command in your terminal. (Instructions below) Git init is short for
+    git initialize, and this command begins a repository for your project
+    directory.
+  </p>
+  <p>
+    Once you have initialized your git repository, then any files or other
+    assets you add to the directory will be added to the list of items to be
+    saved when you commit. You can prevent certain things from being added if
+    you want.
+  </p>
+</div>
 <p>
   To start you need to open your command prompt, powershell, or terminal. Once
   you have opened your prompt, navigate to the directory (folder) you want to

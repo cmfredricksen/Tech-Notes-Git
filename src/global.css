@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Open+Sans&family=Zen+Antique+Soft&display=swap");
-/* SCSS HEX */
 /* SCSS HSL */
-/* SCSS RGB */
 /* SCSS Gradient */
 * {
   margin: 0;
@@ -18,81 +16,103 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 2rem;
-  background-color: #37505c;
+  max-width: 1000px;
+  padding: 0 2rem;
+  margin: auto;
+  background-color: #37515c;
   font-size: large;
-  color: #ffead0;
+  color: #ffead1;
 }
 
-h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: "Zen Antique Soft", serif;
-  margin: 0.5rem 0.5rem 0;
-  padding: 1rem;
-  color: #f76f8e;
-  margin: auto;
+  margin: 1rem 0;
+  color: #f76e8e;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
-  margin: 1.5rem auto;
-  width: 90vw;
+h1,
+h2 {
+  color: #ffead1;
 }
 
-nav {
+h3 {
+  margin: 3rem 0;
+  color: #f76e8e;
+  font-family: "Fira Mono", monospace;
+}
+
+header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 2rem 1rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-bottom: 2px solid #96616b;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header h1 {
+  margin: 0 0.75rem 0;
+}
+
+header h3 {
+  font-style: oblique;
+  font-family: "Fira Mono", monospace;
+  margin: 0 0.75rem 0;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 0.5rem 0;
+}
+
+nav {
+  background-color: #94616a;
   margin-bottom: 2rem;
 }
 
-.nav-link {
-  padding: 0.35rem;
-  margin: 0.15rem;
-  border-left: 2px solid #f76f8e;
-  border-right: 2px solid #f76f8e;
-  background-color: #96616b;
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.25rem;
+}
+
+ul li {
+  list-style: none;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #37515c;
+  border-radius: 0.25rem;
 }
 
 a {
-  color: #ffead0;
+  color: #ffead1;
   text-decoration: none;
   font-family: "Fira Mono", monospace;
   font-weight: 1000;
 }
 
+.text-link {
+  margin: 0 0.5rem 2rem;
+  text-decoration: underline;
+}
+
+.free-link {
+  margin: 2.5rem auto;
+  text-decoration: underline;
+}
+
 a:hover {
   font-weight: bold;
-  color: #f76f8e;
-}
-
-p {
-  padding: 0 1.5rem;
-}
-
-p.code-box {
-  font-family: "Fira Mono", monospace;
-  color: #f76f8e;
-  border: 2px solid #96616b;
-  border-radius: 0.5rem;
-  padding: 2.5rem 0.5rem;
-  width: 75vw;
-  margin: 2.5rem auto;
-  background-color: #113537;
+  color: #f76e8e;
 }
 
 ol {
@@ -105,12 +125,48 @@ li {
   font-family: "Open Sans", sans-serif;
 }
 
-code {
-  background-color: lightgray;
+p {
+  font-family: "Open Sans", sans-serif;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem;
+}
+
+.container {
+  -webkit-columns: 2;
+          columns: 2;
+}
+
+.container p {
+  margin-top: 0;
 }
 
 .code-box {
+  font-family: "Fira Mono", monospace;
+  color: #f76e8e;
+  border: 2px solid #94616a;
+  border-radius: 0.5rem;
+  padding: 2.5rem 0.5rem;
+  width: 75vw;
+  margin: 2.5rem auto;
+  background-color: #113537;
   font-family: monospace;
+  max-width: 70%;
+}
+
+footer {
+  background-color: #94616a;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 1rem 2.5rem;
+  border-radius: 0.25rem;
+}
+
+footer p {
+  background-color: #37515c;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-family: "Fira Mono", monospace;
 }
 
 .symbol {

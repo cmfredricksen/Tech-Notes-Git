@@ -5,26 +5,12 @@ $font-text: "Open Sans", sans-serif;
 $font-links: "Fira Mono", monospace;
 $font-test: sans-serif;
 
-/* SCSS HEX */
-$blanched-almond: #ffead0ff;
-$ultra-red: #f76f8eff;
-$mauve-taupe: #96616bff;
-$charcoal: #37505cff;
-$rich-black: #113537ff;
-
 /* SCSS HSL */
 $blanched-almond: hsla(33, 100%, 91%, 1);
 $ultra-red: hsla(346, 89%, 70%, 1);
 $mauve-taupe: hsla(349, 21%, 48%, 1);
 $charcoal: hsla(199, 25%, 29%, 1);
 $rich-black: hsla(183, 53%, 14%, 1);
-
-/* SCSS RGB */
-$blanched-almond: rgba(255, 234, 208, 1);
-$ultra-red: rgba(247, 111, 142, 1);
-$mauve-taupe: rgba(150, 97, 107, 1);
-$charcoal: rgba(55, 80, 92, 1);
-$rich-black: rgba(17, 53, 55, 1);
 
 /* SCSS Gradient */
 $gradient-top: linear-gradient(
@@ -98,6 +84,9 @@ $gradient-radial: radial-gradient(
   #37505cff,
   #113537ff
 );
+
+// Styles
+
 * {
   margin: 0;
   padding: 0;
@@ -107,58 +96,70 @@ $gradient-radial: radial-gradient(
 body {
   display: flex;
   flex-direction: column;
-  // max-width: 1000px;
-  padding: 2rem;
-  // margin: auto;
+  max-width: 1000px;
+  padding: 0 2rem;
+  margin: auto;
   background-color: $charcoal;
   font-size: large;
   color: $blanched-almond;
 }
 
-h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
   font-family: $font-heading;
-  margin: 0.5rem 0.5rem 0;
-  // text-align: center;
-  padding: 1rem;
-  color: $ultra-red;
-  margin: auto;
+  margin: 1rem 0;
+  color: hsla(346, 89%, 70%, 1);
 }
 
-p {
-  font-family: $font-text;
-  margin: 1.5rem auto;
-  width: 90vw;
-  // font-size: large;
+h1,
+h2 {
+  color: hsla(33, 100%, 91%, 1);
+}
+
+h3 {
+  margin: 3rem 0;
+  color: hsla(346, 89%, 70%, 1);
+  font-family: $font-links;
 }
 
 header {
-  // padding: 1rem 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  margin: 0 0.75rem 0;
+}
+
+header h3 {
+  font-style: oblique;
+  font-family: $font-links;
+  margin: 0 0.75rem 0;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  padding: 0.5rem 0;
 }
 
 nav {
-  display: flex;
-  // flex-direction: column;
-  flex-wrap: wrap;
-  padding: 2rem 1rem;
-  // margin: 1rem;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 2px solid $mauve-taupe;
+  background-color: $mauve-taupe;
   margin-bottom: 2rem;
 }
 
-.nav-link {
-  padding: 0.35rem;
-  // border: 2px solid black;
-  margin: 0.15rem;
-  border-left: 2px solid $ultra-red;
-  border-right: 2px solid $ultra-red;
-  background-color: $mauve-taupe;
+ul {
+  display: flex;
+  border-radius: 0.25rem;
+}
+
+ul li {
+  list-style: none;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: $charcoal;
+  border-radius: 0.25rem;
 }
 
 a {
@@ -168,24 +169,19 @@ a {
   font-weight: 1000;
 }
 
+.text-link {
+  margin: 0 0.5rem 2rem;
+  text-decoration: underline;
+}
+
+.free-link {
+  margin: 2.5rem auto;
+  text-decoration: underline;
+}
+
 a:hover {
   font-weight: bold;
   color: $ultra-red;
-}
-
-p {
-  padding: 0 1.5rem;
-}
-
-p.code-box {
-  font-family: $font-links;
-  color: $ultra-red;
-  border: 2px solid $mauve-taupe;
-  border-radius: 0.5rem;
-  padding: 2.5rem 0.5rem;
-  width: 75vw;
-  margin: 2.5rem auto;
-  background-color: $rich-black;
 }
 
 ol {
@@ -198,22 +194,48 @@ li {
   font-family: $font-text;
 }
 
-code {
-  // margin: 1.5rem 1rem;
-  // padding: 0.5rem 1rem;
-  background-color: lightgray;
+p {
+  font-family: $font-text;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem;
+  //   width: 90vw;
+  // font-size: large;
+}
+.container {
+  columns: 2;
+}
+
+.container p {
+  margin-top: 0;
 }
 
 .code-box {
-  // padding: 1.5rem 1rem;
-  // margin: 3rem;
-  // background-color: rgb(58, 59, 61);
+  font-family: $font-links;
+  color: $ultra-red;
+  border: 2px solid $mauve-taupe;
+  border-radius: 0.5rem;
+  padding: 2.5rem 0.5rem;
+  width: 75vw;
+  margin: 2.5rem auto;
+  background-color: $rich-black;
   font-family: monospace;
-  // border-radius: 0.25rem;
+  max-width: 70%;
 }
 
-.text-link {
-  // margin: 2.5rem;
+footer {
+  background-color: $mauve-taupe;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 1rem 2.5rem;
+  border-radius: 0.25rem;
+}
+
+footer p {
+  background-color: $charcoal;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  font-family: $font-links;
 }
 
 .symbol {
@@ -228,12 +250,6 @@ code {
   text-align: right;
 }
 
-.main-section {
-  // margin: 2rem 0;
-  // border-top: 7px solid lightgrey;
-  // padding-top: 1rem;
-}
-
 @media only screen and (max-width: 640px) {
   .nav-link {
     border: none;
@@ -246,10 +262,5 @@ code {
 @media only screen and (min-width: 720px) {
   html {
     background-color: lightgray;
-  }
-  body {
-    // border-left: 2rem solid grey;
-    // border-right: 2rem solid grey;
-    // background-color: white;
   }
 }
