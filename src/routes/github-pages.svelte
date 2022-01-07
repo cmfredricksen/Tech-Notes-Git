@@ -1,6 +1,6 @@
-<h2>Git Pages</h2>
+<h2>GitHub Pages</h2>
 
-<h3>How to Deploy Your Site Using Git Pages</h3>
+<h3>How to Deploy Your Site Using GitHub Pages</h3>
 <p>
   This, to me, was one of the trickiest things to figure out as a beginner to
   coding and web development. So I learned to follow the steps which I found on <a

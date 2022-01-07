@@ -19,7 +19,7 @@
         <a href="/git-branches">Git Branches</a>
       </li>
       <li>
-        <a href="/git-pages">Git Pages</a>
+        <a href="/github-pages">GitHub Pages</a>
       </li>
     </ul>
   </nav>
