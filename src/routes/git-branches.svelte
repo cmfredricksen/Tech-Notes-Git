@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>Tech Notes | Git Branches</title>
+</svelte:head>
 <h2>Git Branches</h2>
 
 <h3>

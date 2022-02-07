@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>Tech Notes | Github Basics</title>
+</svelte:head>
 <h2>GitHub Basics</h2>
 
 <h3>

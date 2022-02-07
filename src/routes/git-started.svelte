@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>
+    Tech Notes | Git Started
+  </title>
+</svelte:head>
 <h2>Get Started with GIT</h2>
 
 <h3>Install Git on your computer</h3>

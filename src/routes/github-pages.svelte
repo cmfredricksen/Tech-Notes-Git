@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>Tech Notes | GitHub Pages</title>
+</svelte:head>
 <h2>GitHub Pages</h2>
 
 <h3>How to Deploy Your Site Using GitHub Pages</h3>

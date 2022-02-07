@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>Tech Notes | Home</title>
+</svelte:head>
 <h2>Welcome...</h2>
 
 <h3>This page is based on my own notes while learning Git & GitHub.</h3>
@@ -40,6 +43,9 @@
 <p class="code-box">dir /ah</p>
 <p>Shows a log of commits for the current repo:</p>
 <p class="code-box">git log</p>
+<p>Combine commands to be more efficient, two examples below:</p>
+<p class="code-box">git add -A && git commit -m "message about commit"</p>
+<p class="code-box">git init && git add -A && git commit -m "initial commit"</p>
 
 <p>To exit the git log you can type either "q" or "z"</p>
 
