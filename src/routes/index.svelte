@@ -1,21 +1,12 @@
 <svelte:head>
   <title>Tech Notes | Home</title>
 </svelte:head>
+
 <h2>Welcome...</h2>
 
-<h3>This page is based on my own notes while learning Git & GitHub.</h3>
+<p>This site is for beginners, to get started <a href="/git-started">Click here</a>.</p>
 
-<p>To get started follow the links above.</p>
-<p>
-  In order to learn, I practiced the steps over and over again. I made a new
-  project folder, and then initiated git, then I made my online repo and
-  connected it to my local one. I tried to make regular commits and push them to
-  my online repo, though I was inconsistent as a beginner. I went through the
-  steps several times until it became pretty easy. After that I moved to
-  branches, followed by GitHub pages. I did not need to do all of these things
-  at the time, it was just practicing to get the muscle memory going.
-</p>
-<p>I hope this is useful for you. Don't give up, you'll get it!</p>
+<h3>More Resources</h3>
 
 <p>
   There are several sources of good information on Git and GitHub, but the best
@@ -40,14 +31,28 @@
 <h3>Additional Commands:</h3>
 
 <p>To see hidden files, including your git repo type in:</p>
-<p class="code-box">dir /ah</p>
-<p>Shows a log of commits for the current repo:</p>
-<p class="code-box">git log</p>
-<p>Combine commands to be more efficient, two examples below:</p>
-<p class="code-box">git add -A && git commit -m "message about commit"</p>
-<p class="code-box">git init && git add -A && git commit -m "initial commit"</p>
+<pre>
+  <code>dir /ah</code>
+</pre>
 
-<p>To exit the git log you can type either "q" or "z"</p>
+<p>Shows a log of commits for the current repo:</p>
+<pre>
+  <code>git log</code>
+</pre>
+<small>To exit the git log you can type either "q" or "z"</small>
+
+<p>Combine commands to be more efficient, two examples below:</p>
+
+<pre>
+  <code>
+    git add -A && git commit -m "message about commit"
+  </code>
+  <code>
+    git init && git add -A && git commit -m "initial commit"
+  </code>
+</pre>
+  
+
 
 <p>
   Definitions taken from GitHub:

@@ -29,7 +29,9 @@
   navigate to your projects directory, and type in the following commands:
 </p>
 
-<p class="code-box">git remote add origin url-of-repository</p>
+<pre>
+  <code>git remote add origin url-of-repository</code>
+</pre>
 
 <p>
   To find the URL of your repository, simply navigate to that repo's page on
@@ -50,26 +52,35 @@
   type in this command:
 </p>
 
-<p class="code-box">git push origin master</p>
+<pre>
+  <code>git push origin master</code>
+</pre>
 
 <p>
   The above is for the first time push on any new repository. Once you have
   pushed commits to your remote repo for the first time the rest of your pushes
   are done using:
 </p>
-<p class="code-box">git push</p>
+
+<pre>
+  <code>git push</code>
+</pre>
+
 <p>
   Now your files, and all of the changes made are saved to Github where you can
   work on them, share them and allow collaboration, just to name a few things.
   Once you have this set up, it is very quick and simple to keep everything up
-  to date and in synch. To Summarize:
+  to date and in synch. <strong>To Summarize:</strong>
 </p>
 
-<div class="code-box">
-  <p>git add filename</p>
-  <p>git commit filename -m "message about changes"</p>
-  <p>git push</p>
-</div>
+<pre>
+  
+    <code>git add filename</code>
+    <code>git commit filename -m "message about changes"</code>
+    <code>git push</code>
+  
+</pre>
+
 <p>
   That's all for basic use of Git and GitHub, there is a lot more you can do
   with these amazing tools. Don't be intimidated, you will get the hang of it.

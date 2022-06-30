@@ -43,13 +43,18 @@
     you want.
   </p>
 </div>
+
+<hr>
 <p>
-  To start you need to open your command prompt, powershell, or terminal. Once
+  <strong>To start:</strong> you need to open your command prompt, powershell, or terminal. Once
   you have opened your prompt, navigate to the directory (folder) you want to
   track using git. Next type in the following command and hit enter:
 </p>
 
-<p class="code-box">git init</p>
+<pre>
+
+  <code>git init</code>
+</pre>
 
 <p>
   Now your directory is being tracked by git, and this repository that you just
@@ -87,13 +92,18 @@
     following:
   </p>
 
-  <p class="code-box">git status</p>
+  <pre>
+    <code>git status</code>
+  </pre>
 
   <p>
     This will get you a list of files and other assets from your directory that
     need to be staged in red, and those already staged in green.
   </p>
-  <p class="code-box">git add filename</p>
+
+  <pre>
+    <code>git add filename</code>
+  </pre>
 
   <p>'filename' means the name of your file, for example index.html.</p>
 
@@ -102,7 +112,9 @@
     simply type in:
   </p>
 
-  <p class="code-box">git add .</p>
+  <pre>
+    <code>git add -A</code>
+  </pre>
 
   <p>
     This will add all of the files in the current directory that have changes to
@@ -122,10 +134,15 @@
     followed by the message to your commit command:
   </p>
 
-  <p class="code-box">-m "message about changes"</p>
+  <pre>
+    <code>-m "message about changes"</code>
+  </pre>
 
   <p>The full command is written below:</p>
-  <p class="code-box">git commit filename -m "message about changes"</p>
+
+  <pre>
+    <code>git commit filename -m "message about changes"</code>
+  </pre>
 
   <p>
     Your message is about the changes you have made to your code since the last

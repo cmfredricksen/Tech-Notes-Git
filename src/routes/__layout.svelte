@@ -5,5 +5,14 @@
 </script>
 
 <Header />
-<slot />
+<div class="wrapper">
+  <slot />
+</div>
 <Footer />
+
+<style>
+  .wrapper {
+    width: 60vw;
+    margin: 2rem auto;
+  }
+</style>

@@ -4,3 +4,11 @@
     ♥
   </p>
 </footer>
+
+<style>
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+  }
+</style>

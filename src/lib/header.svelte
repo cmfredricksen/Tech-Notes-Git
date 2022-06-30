@@ -1,26 +1,23 @@
+<script>
+  import Nav from "./nav.svelte"
+</script>
 <header>
-  <div class="title">
     <h1>Tech Notes</h1>
-    <h3>•for beginners</h3>
-  </div>
-
-  <nav class="main-menu">
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/git-started">Get Started</a>
-      </li>
-      <li>
-        <a href="/github-basics">GitHub Basics</a>
-      </li>
-      <li>
-        <a href="/git-branches">Git Branches</a>
-      </li>
-      <li>
-        <a href="/github-pages">GitHub Pages</a>
-      </li>
-    </ul>
-  </nav>
+    <h3>Git & GitHub for Beginners</h3>
+    <Nav />
 </header>
+
+<style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 1rem 2rem;
+    border-bottom: 2px solid var(--clr-grey);
+  }
+
+  h3 {
+    color: var(--clr-accent);
+  }
+
+</style>
