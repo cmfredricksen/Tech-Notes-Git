@@ -81,3 +81,9 @@ pre code {
   margin: 0 auto;
 } */
 
+@media screen and(max-width: 720px) {
+  body {
+    padding: .5rem 1rem 1rem;
+  }
+}
+
