@@ -1,7 +1,6 @@
 <script>
     import {page} from "$app/stores"
-import { getRawBody } from "@sveltejs/kit/node";
-import { query_selector_all } from "svelte/internal";
+    
 
     export const links = [
         {
@@ -25,21 +24,16 @@ import { query_selector_all } from "svelte/internal";
             path: "/github-pages"
         }
     ]
+
 </script>
 
 <nav>
     {#each links as {path, title}}
         <a class:active={$page.path === path} href={path}>{title}</a>
     {/each}
-
 </nav>
-<button>&hellip;</button>
 
-<div class="drop-down">
-    {#each links as {path, title}}
-        <a href={path}>{title}</a>
-    {/each}
-</div>
+
 
 <style>
     a {
@@ -47,27 +41,7 @@ import { query_selector_all } from "svelte/internal";
     }
 
     .active {
-        /* text-decoration: underline; */
         color: var(--clr-accent)
-    }
-
-    button {
-        display: none;
-        /* padding: 1rem; */
-        font-weight: bold;
-        font-size: 3rem;
-        background: var(--clr-black);
-        color: var(--clr-white);
-        box-shadow: none;
-        border: none;
-    }
-
-    button:hover {
-        color: var(--clr-accent);
-    }
-
-    .drop-down {
-        display: none;
     }
 
     @media screen and (max-width: 720px) {
@@ -83,16 +57,6 @@ import { query_selector_all } from "svelte/internal";
             text-align: center;
             font-weight: bold;
             font-size: 2rem;
-        }
-
-        button {
-            display: block;
-        }
-
-        .drop-down {
-            display:none;
-            flex-direction: column;
-            
         }
 
     }

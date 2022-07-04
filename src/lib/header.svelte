@@ -1,9 +1,12 @@
 <script>
   import Nav from "./nav.svelte"
-  import DropDown from "./components/drop-down.svelte";
 </script>
+
+
 <header>
-    <h1>Tech Notes</h1>
+    <h1>
+      <a href="/">Tech Notes</a>
+    </h1>
     <h3>Git & GitHub for Beginners</h3>
     <Nav />
 </header>
@@ -21,6 +24,7 @@
     color: var(--clr-accent);
   }
 
+
   @media only screen and (max-width: 720px) {
     header {
       flex-direction: column;
@@ -28,6 +32,9 @@
       justify-content: baseline;
       align-items: center;
     }
+
   }
+
+  
 
 </style>

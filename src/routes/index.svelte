@@ -48,7 +48,10 @@
   <h4>
       add -A && git commit -m "message about commit"
   </h4>
-  <hr>
+</div>
+
+<p>Example 2</p>
+<div class="code-block">
   <h4>
     git init && git add -A && git commit -m "initial commit"
   </h4>
