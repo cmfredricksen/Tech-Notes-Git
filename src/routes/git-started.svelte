@@ -25,7 +25,7 @@
   <p>
     Git is version control software. It keeps track of every change you make to
     your files. This allows you the freedom to go back to an earlier rendition
-    of your code if things go awry. Another handy feature is the ability to work
+    of your h4 if things go awry. Another handy feature is the ability to work
     on branches, only merging to your main project once everything is working
     properly.
   </p>
@@ -51,10 +51,10 @@
   track using git. Next type in the following command and hit enter:
 </p>
 
-<pre>
+<div class="code-block">
 
-  <code>git init</code>
-</pre>
+  <h4>git init</h4>
+</div>
 
 <p>
   Now your directory is being tracked by git, and this repository that you just
@@ -92,18 +92,18 @@
     following:
   </p>
 
-  <pre>
-    <code>git status</code>
-  </pre>
+  <div class="code-block">
+    <h4>git status</h4>
+  </div>
 
   <p>
     This will get you a list of files and other assets from your directory that
     need to be staged in red, and those already staged in green.
   </p>
 
-  <pre>
-    <code>git add filename</code>
-  </pre>
+  <div class="code-block">
+    <h4>git add filename</h4>
+  </div>
 
   <p>'filename' means the name of your file, for example index.html.</p>
 
@@ -112,9 +112,9 @@
     simply type in:
   </p>
 
-  <pre>
-    <code>git add -A</code>
-  </pre>
+  <div class="code-block">
+    <h4>git add -A</h4>
+  </div>
 
   <p>
     This will add all of the files in the current directory that have changes to
@@ -134,15 +134,15 @@
     followed by the message to your commit command:
   </p>
 
-  <pre>
-    <code>-m "message about changes"</code>
-  </pre>
+  <div class="code-block">
+    <h4>-m "message about changes"</h4>
+  </div>
 
   <p>The full command is written below:</p>
 
-  <pre>
-    <code>git commit filename -m "message about changes"</code>
-  </pre>
+  <div class="code-block">
+    <h4>git commit filename -m "message about changes"</h4>
+  </div>
 
   <p>
     Your message is about the changes you have made to your code since the last

@@ -19,68 +19,68 @@
 </p>
 <p>To start in your terminal type in:</p>
 
-<pre>
-  <code>git branch</code>
-</pre>
+<div class="code-block">
+  <h4>git branch</h4>
+</div>
 
 <p>
   This will give you a list of current branches in your project. The branch you
   are currently working on will be highlighted. To make a new branch:
 </p>
 
-<pre>
-  <code>git branch name-of-new-branch</code>
-</pre>
+<div class="code-block">
+  <h4>git branch name-of-new-branch</h4>
+</div>
 
 <p>Then to switch over to your new branch type in:</p>
 
-<pre>
-  <code>git checkout name-of-new-branch</code>
-</pre>
+<div class="code-block">
+  <h4>git checkout name-of-new-branch</h4>
+</div>
 
 <p>
   Now you are working on your new branch. Once you have made some changes you go
   through the same process of:
 </p>
 
-<pre>
-  <code>git add filename</code>
-  <code>git commit filename -m "message about changes"</code>
-  <code>git push</code>
-</pre>
+<div class="code-block">
+  <h4>git add filename</h4>
+  <h4>git commit filename -m "message about changes"</h4>
+  <h4>git push</h4>
+</div>
 
 <p>You can also combine the commands:</p>
 
-<pre>
-  <code>git add filename && git commit -m "message about changes" && git push</code>
-</pre>
+<div class="code-block">
+  <h4>git add filename && git commit -m "message about changes" && git push</h4>
+</div>
 
 <p>
   If it is your first time pushing this branch to your remote repository then
   use:
 </p>
 
-<pre>
-  <code>git push origin name-of-new-branch</code>
-</pre>
+<div class="code-block">
+  <h4>git push origin name-of-new-branch</h4>
+</div>
 
 <p>
   Once you are finished pushing your changes to GitHub, then you can switch back
   to Master by typing in:
 </p>
 
-<pre>
-  <code>git checkout master</code>
-</pre>
+<div class="code-block">
+  <h4>git checkout master</h4>
+</div>
 
 <p>
   Once you have switched to the master branch, you can then merge your other
   branch to master by typing in:
 </p>
 
-<pre>
-  <code>git merge name-of-new-branch</code>
-</pre>
+<div class="code-block">
+  <h4>git merge name-of-new-branch</h4>
+</div>
 
 <p>
   Now you have merged your changes from your other branch in with the master.

@@ -29,9 +29,9 @@
   navigate to your projects directory, and type in the following commands:
 </p>
 
-<pre>
-  <code>git remote add origin url-of-repository</code>
-</pre>
+<div class="code-block">
+  <h4>git remote add origin url-of-repository</h4>
+</div>
 
 <p>
   To find the URL of your repository, simply navigate to that repo's page on
@@ -52,9 +52,9 @@
   type in this command:
 </p>
 
-<pre>
-  <code>git push origin master</code>
-</pre>
+<div class="code-block">
+  <h4>git push origin master</h4>
+</div>
 
 <p>
   The above is for the first time push on any new repository. Once you have
@@ -62,9 +62,9 @@
   are done using:
 </p>
 
-<pre>
-  <code>git push</code>
-</pre>
+<div class="code-block">
+  <h4>git push</h4>
+</div>
 
 <p>
   Now your files, and all of the changes made are saved to Github where you can
@@ -73,13 +73,13 @@
   to date and in synch. <strong>To Summarize:</strong>
 </p>
 
-<pre>
+<div class="code-block">
   
-    <code>git add filename</code>
-    <code>git commit filename -m "message about changes"</code>
-    <code>git push</code>
+    <h4>git add filename</h4>
+    <h4>git commit filename -m "message about changes"</h4>
+    <h4>git push</h4>
   
-</pre>
+</div>
 
 <p>
   That's all for basic use of Git and GitHub, there is a lot more you can do

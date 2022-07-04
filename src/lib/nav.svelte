@@ -52,6 +52,7 @@ import { query_selector_all } from "svelte/internal";
     }
 
     button {
+        display: none;
         /* padding: 1rem; */
         font-weight: bold;
         font-size: 3rem;
@@ -82,6 +83,10 @@ import { query_selector_all } from "svelte/internal";
             text-align: center;
             font-weight: bold;
             font-size: 2rem;
+        }
+
+        button {
+            display: block;
         }
 
         .drop-down {

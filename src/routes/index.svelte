@@ -31,28 +31,28 @@
 <h3>Additional Commands:</h3>
 
 <p>To see hidden files, including your git repo type in:</p>
-<pre>
-  <code>dir /ah</code>
-</pre>
+<div class="code-block">
+  <h4>dir /ah</h4>
+</div>
 
 <p>Shows a log of commits for the current repo:</p>
-<pre>
-  <code>git log</code>
-</pre>
+
+<div class="code-block">
+<h4>git log</h4>  
 <small>To exit the git log you can type either "q" or "z"</small>
+</div>
 
 <p>Combine commands to be more efficient, two examples below:</p>
 
-<pre>
-  <code>
-    git add -A && git commit -m "message about commit"
-  </code>
-  <code>
+<div class="code-block">
+  <h4>
+      add -A && git commit -m "message about commit"
+  </h4>
+  <hr>
+  <h4>
     git init && git add -A && git commit -m "initial commit"
-  </code>
-</pre>
-  
-
+  </h4>
+</div>
 
 <p>
   Definitions taken from GitHub:
