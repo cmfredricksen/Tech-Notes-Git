@@ -27,7 +27,6 @@
 </script>
 
 <div class="overlay" on:click={() => toggle.set(false)}>
-    <button on:click={() => toggle.set(false)}>&times;</button>
     <nav>
         {#each links as {title, path}}
             <a href={path}>{title}</a>
@@ -45,16 +44,6 @@
         display: grid;
     }
 
-    button {
-        background-color: var(--clr-black);
-        color: var(--clr-white);
-        font-weight: 700;
-        font-size: 2rem;
-        padding: 0 .25rem;
-        border: none;
-        border-radius: .5rem;
-
-    }
 
     nav {
         display: flex;

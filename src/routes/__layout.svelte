@@ -14,7 +14,7 @@
 
 
 <div class="wrapper">
-  <button on:click={() => toggle.set(true)} class="menu-button">Menu</button>
+  <button on:click={() => toggle.set(!$toggle)} class="menu-button">&equiv; Menu</button>
   {#if $toggle}
     <DropdownMenu />
   {/if}
