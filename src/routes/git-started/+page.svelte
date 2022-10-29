@@ -1,7 +1,5 @@
 <svelte:head>
-  <title>
-    Tech Notes | Git Started
-  </title>
+  <title>Tech Notes | Git Started</title>
 </svelte:head>
 <h2>Get Started with GIT</h2>
 
@@ -12,7 +10,12 @@
   pretty straight forward. Just follow the link below:
 </p>
 
-<a class="free-link" href="https://git-scm.com/downloads">Download Git</a>
+<a
+  class="free-link"
+  href="https://git-scm.com/downloads"
+  target="_blank"
+  rel="noreferrer">Download Git</a
+>
 
 <p>
   Once you have installed Git you can begin a new repository for any project you
@@ -44,15 +47,14 @@
   </p>
 </div>
 
-<hr>
+<hr />
 <p>
-  <strong>To start:</strong> you need to open your command prompt, powershell, or terminal. Once
-  you have opened your prompt, navigate to the directory (folder) you want to
-  track using git. Next type in the following command and hit enter:
+  <strong>To start:</strong> you need to open your command prompt, powershell, or
+  terminal. Once you have opened your prompt, navigate to the directory (folder)
+  you want to track using git. Next type in the following command and hit enter:
 </p>
 
 <div class="code-block">
-
   <h4>git init</h4>
 </div>
 

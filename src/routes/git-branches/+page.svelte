@@ -10,11 +10,11 @@
 <p>
   Branches allow you to work on, or add special features, without interfering
   with your current project. When you start a repository in Git, it is
-  automatically assigned to the role of 'Master' branch.
+  automatically assigned to the role of 'main' branch.
 </p>
 <p>
   I often make another branch to work on the layout while I am building my site.
-  I call it layout. Once I am pleased with my work I merge it with the 'Master'
+  I call it layout. Once I am pleased with my work I merge it with the 'main'
   branch.
 </p>
 <p>To start in your terminal type in:</p>
@@ -66,23 +66,21 @@
 
 <p>
   Once you are finished pushing your changes to GitHub, then you can switch back
-  to Master by typing in:
+  to main by typing in:
 </p>
 
 <div class="code-block">
-  <h4>git checkout master</h4>
+  <h4>git checkout main</h4>
 </div>
 
 <p>
-  Once you have switched to the master branch, you can then merge your other
-  branch to master by typing in:
+  Once you have switched to the main branch, you can then merge your other
+  branch to main by typing in:
 </p>
 
 <div class="code-block">
   <h4>git merge name-of-new-branch</h4>
 </div>
 
-<p>
-  Now you have merged your changes from your other branch in with the master.
-</p>
+<p>Now you have merged your changes from your other branch in with the main.</p>
 <a href="#top"><p class="symbol">back to top</p></a>

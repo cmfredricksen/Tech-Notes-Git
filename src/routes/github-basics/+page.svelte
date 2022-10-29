@@ -13,7 +13,9 @@
   others very easily while working on code.
 </p>
 <p>GitHub is free to use, simply go to:</p>
-<a class="text-link" href="https://github.com" target="_blank">github.com</a>
+<a class="text-link" href="https://github.com" target="_blank" rel="noreferrer"
+  >github.com</a
+>
 <p>
   and sign up for a free account. Once you are signed up follow these steps:
 </p>
@@ -53,7 +55,7 @@
 </p>
 
 <div class="code-block">
-  <h4>git push origin master</h4>
+  <h4>git push origin main</h4>
 </div>
 
 <p>
@@ -74,11 +76,9 @@
 </p>
 
 <div class="code-block">
-  
-    <h4>git add filename</h4>
-    <h4>git commit filename -m "message about changes"</h4>
-    <h4>git push</h4>
-  
+  <h4>git add filename</h4>
+  <h4>git commit filename -m "message about changes"</h4>
+  <h4>git push</h4>
 </div>
 
 <p>
